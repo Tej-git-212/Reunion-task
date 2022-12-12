@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { HouseContext } from "../../contexts/HouseContext";
 function MoveInDatePicker() {
   const { rentByDate, setRentByDate } = useContext(HouseContext);
+  console.log(rentByDate)
   return (
     <Menu as="div" className="dropdown relative">
       <Menu.Button className="dropdown-btn w-full text-left">
